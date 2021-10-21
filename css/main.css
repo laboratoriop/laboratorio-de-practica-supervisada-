@@ -1,0 +1,225 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --fuente1: 'Montserrat', sans-serif;
+    --verde: rgb(6 72 71);
+    --verde-claro: rgb(215 238 237);
+    --verde-tres: rgb(34 93 92);
+}
+
+/* incion header */
+.header{
+    background-color: rgb(6 72 71);
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dueño b {
+    color: tomato;
+}
+.titulo-header {
+    margin: 0px;
+    font-family: var(--fuente1);
+    color: white;
+    font-size: 22px;
+    margin-left: 25px;
+}
+
+.dueño {
+    margin: 0px;
+    font-family: var(--fuente1);
+    color: white;
+    font-size: 12px;
+    margin-right: 25px;
+}
+
+/* fin header */
+
+/* inicio principal menu */
+
+.principal{
+    width: 100%;
+    background-color:var(--verde-claro);
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+/* seccion de la imagen  */
+.imga-principal{
+  width: 52%;
+}
+
+/* secion de los titulos */
+
+.texto-principal{
+    font-family: var(--fuente1);
+    color: var(--verde);
+    text-align: center;
+    padding: 20px;
+    font-size: 22px;
+}
+
+
+.boton{
+    padding: 18px;
+    background-color: var(--verde);
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+}
+.boton:hover{
+    color: var(--verde-claro);
+    
+}
+
+.titulos {
+    margin-top: 50px;
+    font-size: 15px;
+    color: var(--verde);
+    font-family: var(--fuente1);
+    text-align: center;
+}
+
+.informacion{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.texto {
+    width: 350px;
+    height: 350px;
+    font-family: var(--fuente1);
+}
+
+.informacion img {
+   width: 200px;
+   box-shadow: 30px 20px var(--verde-claro);
+}
+
+.sintomas {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sintomas img {
+    width: 400px;
+   box-shadow: 30px 20px var(--verde-claro);
+}
+
+.sintomas-info{
+    font-size: 15px;
+}
+
+/* seccion de enfermedades */
+
+.enfermedades{
+    margin-top: 65px;
+    background-color: var(--verde);
+    width: 100%;
+    height: 800px;
+}
+
+.titulo-enfermedades{
+   margin: 0px;
+   padding-top: 50px;
+    color: white;
+    text-align: center;
+    font-family: var(--fuente1);
+}
+
+.parrafo-enfermedades{
+    color: white;
+    text-align: center;
+    font-family: var(--fuente1);
+}
+
+.contenedor-enfermedades{
+    margin-top: 65px;
+   display: flex;
+   width: 100%;
+   height: 400px;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.tarjeta-enfermedades{
+    color: white;
+    margin: 15px;
+    width: 500px;
+    height: 200px;
+    background-color:var(--verde-tres);
+    border-radius: 20px;
+    text-align: justify;
+    text-align: center;
+    padding: 15px;
+    font-family: var(--fuente1);
+}
+
+.tarjeta-enfermedades a {
+    background-color: var(--verde);
+    color: var(--verde-claro);
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+/* text */
+
+.test {
+    width: 100%;
+    height: 550px;
+    display: flex;
+}
+
+.imagen{
+    width: 50%;
+    height: 550px;
+    background-image: url('../imagenes/1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.texto-test {
+    margin-top: 160px;
+    width: 50%;
+    text-align: center;
+    font-family: var(--fuente1);
+}
+.boton-test {
+    background-color: var(--verde);
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: var(--verde-tres);
+    width: 100%;
+    height: 200px;
+}
+
+.footer  h1 {
+    text-align: center;
+    font-family: var(--fuente1);
+    color: white;
+    margin: 0px;
+    padding-top: 50px;
+
+}
